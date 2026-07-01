@@ -1,0 +1,8 @@
+project = DEV
+project = DEV AND status = "To Do"
+project = DEV AND status = Done
+assignee = currentUser()
+Sprint = "Sprint-1"
+priority = High
+issuetype = Bug
+created >= -7d
