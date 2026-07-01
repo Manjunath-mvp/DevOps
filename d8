@@ -1,0 +1,10 @@
+mkdir FlaskDockerDemo
+cd FlaskDockerDemo
+touch app.py main.py requirements.txt Dockerfile
+docker build -t flask-app .
+docker run -d -p 5000:5000 --name flask-container flask-app
+docker ps
+docker inspect flask-container
+docker stop flask-container
+docker rm flask-container
+docker images
