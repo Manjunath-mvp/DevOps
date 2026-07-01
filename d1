@@ -1,11 +1,9 @@
 mkdir MITdemo
 cd MITdemo
-ls
-touch index.html index2.html index3.html
-vim index.html
-cat index.html
-ls -l
 git init
+echo "hello world" >index.txt
+git add index.txt
+
 git add .
 git commit -m "Initial Commit"
 git remote add origin https://github.com/LikithKumar0112/Mod1P1-Demo.git
