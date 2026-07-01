@@ -7,5 +7,6 @@ git add index.txt
 git add .
 git commit -m "Initial Commit"
 git remote add origin https://github.com/Manjunath-mvp/zx.git
+git pull origin master --allow-unrelated-histories
 git push -u origin master
 git clone https://github.com/Manjunath-mvp/zx.git
